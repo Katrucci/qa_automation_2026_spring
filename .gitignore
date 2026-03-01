@@ -88,3 +88,31 @@ nb-configuration.xml
 ## Miscellaneous
 ##############################
 *.log
+# Ôàéëû Gradle
+# Êàòàëîã ñ âðåìåííûìè äàííûìè ñèñòåìû ñáîðêè Gradle
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+### Java template
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Êàòàëîã ñ âûõîäíûìè äàííûìè
+build
+
+# Èãíîðèðóåì âðåìåííûå ôàéëû Idea
+.idea/workspace.xml
+.idea/libraries
