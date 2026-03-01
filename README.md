@@ -1,2 +1,2 @@
-# my-first-project
+# Обучение в RedRover.school
 
