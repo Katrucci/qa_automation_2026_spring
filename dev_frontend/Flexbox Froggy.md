@@ -25,19 +25,24 @@
   display: flex;
   justify-content: center;
 }
+![ Froggy_1_1](images/ froggy2_1.png)
+![ Froggy_1_1](images/ froggy2_2.png)
 
 <!-- Равномерные отступы вокруг элементов; между элементами вдвое больше пространства, чем от краёв -->
 #pond {
   display: flex;
   justify-content: space-around;
 }
+![ Froggy_1_1](images/ froggy3_1.png)
+![ Froggy_1_1](images/ froggy3_2.png)
 
 <!-- Равномерное распределение свободного пространства между элементами; первый и последний элементы прижаты к краям -->
 #pond {
   display: flex;
   justify-content: space-between;
 }
-
+![ Froggy_1_1](images/ froggy4_1.png)
+![ Froggy_1_1](images/ froggy4_2.png)
 <!-- 
   ALIGN-ITEMS: Выравнивание по поперечной оси (вертикальной по умолчанию)
 -->
@@ -47,21 +52,24 @@
   display: flex;
   align-items: flex-end;
 }
-
+![ Froggy_1_1](images/ froggy5_1.png)
+![ Froggy_1_1](images/ froggy5_2.png)
 <!-- Комбинация: центрирование по обеим осям -->
 #pond {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+![ Froggy_1_1](images/ froggy6_1.png)
+![ Froggy_1_1](images/ froggy6_2.png)
 <!-- Комбинация: space-around по основной оси и flex-end по поперечной -->
 #pond {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-
+![ Froggy_1_1](images/ froggy7_1.png)
+![ Froggy_1_1](images/ froggy7_2.png)
 <!-- 
   FLEX-DIRECTION: Направление основной оси
 -->
@@ -71,34 +79,39 @@
   display: flex;
   flex-direction: row-reverse;
 }
-
+![ Froggy_1_1](images/ froggy8_1.png)
+![ Froggy_1_1](images/ froggy8_2.png)
 <!-- Элементы располагаются сверху вниз -->
 #pond {
   display: flex;
   flex-direction: column;
 }
-
+![ Froggy_1_1](images/ froggy9_1.png)
+![ Froggy_1_1](images/ froggy9_2.png)
 <!-- Комбинация: row-reverse с выравниванием по левому краю -->
 #pond {
   display: flex;
   flex-direction: row-reverse;
   justify-content: left;
 }
-
+![ Froggy_1_1](images/ froggy10_1.png)
+![ Froggy_1_1](images/ froggy10_2.png)
 <!-- Комбинация: column с выравниванием по концу основной оси -->
 #pond {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
-
+![ Froggy_1_1](images/ froggy11_1.png)
+![ Froggy_1_1](images/ froggy11_2.png)
 <!-- Комбинация: column-reverse с равномерным распределением пространства -->
 #pond {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
 }
-
+![ Froggy_1_1](images/ froggy12_1.png)
+![ Froggy_1_1](images/ froggy12_2.png)
 <!-- Комбинация: row-reverse с центрированием и выравниванием по концу поперечной оси -->
 #pond {
   display: flex;
@@ -106,7 +119,8 @@
   justify-content: center;
   align-items: end;
 }
-
+![ Froggy_1_1](images/ froggy13_1.png)
+![ Froggy_1_1](images/ froggy13_2.png)
 <!-- 
   ORDER: Изменение порядка отдельных элементов
   По умолчанию все элементы имеют order: 0
@@ -119,6 +133,8 @@
 .yellow {
   order: 2;
 }
+![ Froggy_1_1](images/ froggy14_1.png)
+![ Froggy_1_1](images/ froggy14_2.png)
 
 #pond {
   display: flex;
@@ -126,7 +142,8 @@
 .red {
   order: -3;
 }
-
+![ Froggy_1_1](images/ froggy15_1.png)
+![ Froggy_1_1](images/ froggy15_2.png)
 <!-- 
   ALIGN-SELF: Индивидуальное выравнивание отдельных элементов
   Переопределяет align-items для конкретного элемента
@@ -139,7 +156,8 @@
 .yellow {
   align-self: end;
 }
-
+![ Froggy_1_1](images/ froggy16_1.png)
+![ Froggy_1_1](images/ froggy16_2.png)
 <!-- Комбинация order и align-self для одного элемента -->
 #pond {
   display: flex;
@@ -149,7 +167,8 @@
   order: 2;
   align-self: end;
 }
-
+![ Froggy_1_1](images/ froggy17_1.png)
+![ Froggy_1_1](images/ froggy17_2.png)
 <!-- 
   FLEX-WRAP: Перенос элементов на новую строку
   По умолчанию flex-wrap: nowrap (все элементы в одну строку)
@@ -160,14 +179,16 @@
   display: flex;
   flex-wrap: wrap;
 }
-
+![ Froggy_1_1](images/ froggy18_1.png)
+![ Froggy_1_1](images/ froggy18_2.png)
 <!-- Комбинация column direction с wrap -->
 #pond {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-
+![ Froggy_1_1](images/ froggy19_1.png)
+![ Froggy_1_1](images/ froggy19_2.png)
 <!-- 
   FLEX-FLOW: Сокращённая запись для flex-direction и flex-wrap
   Принимает два значения через пробел: направление и перенос
@@ -177,7 +198,8 @@
   display: flex;
   flex-flow: column wrap;
 }
-
+![ Froggy_1_1](images/ froggy20_1.png)
+![ Froggy_1_1](images/ froggy20_2.png)
 <!-- 
   ALIGN-CONTENT: Управление пространством между рядами (только при flex-wrap: wrap)
   Важно: align-content работает только когда элементов больше, чем помещается в одном ряду
@@ -191,13 +213,15 @@
   flex-wrap: wrap;
   align-content: flex-start;
 }
-
+![ Froggy_1_1](images/ froggy21_1.png)
+![ Froggy_1_1](images/ froggy21_2.png)
 #pond {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
 }
-
+![ Froggy_1_1](images/ froggy22_1.png)
+![ Froggy_1_1](images/ froggy22_2.png)
 <!-- Комбинация column-reverse с центрированием содержимого -->
 #pond {
   display: flex;
@@ -205,7 +229,8 @@
   flex-direction: column-reverse;
   align-content: center;
 }
-
+![ Froggy_1_1](images/ froggy23_1.png)
+![ Froggy_1_1](images/ froggy23_2.png)
 <!-- 
   ФИНАЛЬНАЯ КОМБИНАЦИЯ: Все свойства вместе
   Сложный пример использования множества flexbox свойств
@@ -217,11 +242,13 @@
   justify-content: center;
   flex-direction: column-reverse;
 }
-
+![ Froggy_1_1](images/ froggy24_1.png)
+![ Froggy_1_1](images/ froggy24_2.png)
 <!-- 
   Поздравляем! Вы освоили CSS Flexbox!
   Ты выиграл! Благодарим тебя за мастерство flexbox, 
   ты смог помочь всем лягушатам добраться до своих лилий. 
   Просто взгляни, как они счастливы!
 -->
+![ Froggy_1_1](images/ froggy_final.png)
 ```
