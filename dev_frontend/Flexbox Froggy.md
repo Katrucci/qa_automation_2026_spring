@@ -1,5 +1,5 @@
-```markdown
-# CSS Flexbox: Полное руководство на примере игры с лягушками
+
+### CSS Flexbox: Полное руководство на примере игры с лягушками
 
 <!-- 
   Это интерактивное руководство по CSS Flexbox.
@@ -11,244 +11,373 @@
   JUSTIFY-CONTENT: Выравнивание по основной оси (горизонтальной по умолчанию)
 -->
 
-<!-- Элементы прижаты к концу основной оси -->
-#pond {
-  display: flex;
-  justify-content: flex-end;
+<!-- Элементы прижаты к концу основной оси --><br>
+#### pond {
+  display: flex;<br>
+  justify-content: flex-end;<br>
 }
-![Froggy_1_1](https://raw.githubusercontent.com/Katrucci/qa_automation_2026_spring/main/dev_frontend/images/froggy1_1.png)
-![Froggy_1_2](./images/froggy1_2.png)
 
+<table>
+  <tr>
+    <td><img src="images/froggy1_1.png" alt="Froggy_1_1" width="400"/></td>
+    <td><img src="images/froggy1_2.png" alt="Froggy_1_2" width="400"/></td>
+  </tr>
+</table>
 
-<!-- Элементы выровнены по центру основной оси -->
-#pond {
-  display: flex;
-  justify-content: center;
+<!-- Элементы выровнены по центру основной оси --><br>
+#### pond {
+  display: flex;<br>
+  justify-content: center;<br>
 }
-![Froggy_2_1](images/froggy2_1.png)
-![Froggy_2_2](images/froggy2_2.png)
 
-<!-- Равномерные отступы вокруг элементов; между элементами вдвое больше пространства, чем от краёв -->
-#pond {
-  display: flex;
-  justify-content: space-around;
-}
-![Froggy_3_1](images/froggy3_1.png)
-![Froggy_3_2](images/froggy3_2.png)
+<table>
+  <tr>
+    <td><img src="images/froggy2_1.png" alt="Froggy_2_1" width="400"/></td>
+    <td><img src="images/froggy2_2.png" alt="Froggy_2_2" width="400"/></td>
+  </tr>
+</table>
 
-<!-- Равномерное распределение свободного пространства между элементами; первый и последний элементы прижаты к краям -->
-#pond {
-  display: flex;
-  justify-content: space-between;
+<!-- Равномерные отступы вокруг элементов; между элементами вдвое больше пространства, чем от краёв --><br>
+#### pond {
+  display: flex;<br>
+  justify-content: space-around;<br>
 }
-![Froggy_4_1](images/froggy4_1.png)
-![Froggy_4_2](images/froggy4_2.png)
+
+<table>
+  <tr>
+    <td><img src="images/froggy3_1.png" alt="Froggy_3_1" width="400"/></td>
+    <td><img src="images/froggy3_2.png" alt="Froggy_3_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Равномерное распределение свободного пространства между элементами; первый и последний элементы прижаты к краям --><br>
+
+#### pond  {
+  display: flex;<br>
+  justify-content: space-between;<br>
+}
+
+<table>
+  <tr>
+    <td><img src="images/froggy4_1.png" alt="Froggy_4_1" width="400"/></td>
+    <td><img src="images/froggy4_2.png" alt="Froggy_4_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   ALIGN-ITEMS: Выравнивание по поперечной оси (вертикальной по умолчанию)
 -->
 
-<!-- Элементы выравниваются по нижнему краю контейнера -->
-#pond {
-  display: flex;
-  align-items: flex-end;
+<!-- Элементы выравниваются по нижнему краю контейнера --><br>
+#### pond {
+  display: flex;<br>
+  align-items: flex-end;<br>
 }
-![Froggy_5_1](images/froggy5_1.png)
-![Froggy_5_2](images/froggy5_2.png)
-<!-- Комбинация: центрирование по обеим осям -->
-#pond {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+
+<table>
+  <tr>
+    <td><img src="images/froggy5_1.png" alt="Froggy_5_1" width="400"/></td>
+    <td><img src="images/froggy5_2.png" alt="Froggy_5_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация: центрирование по обеим осям --><br>
+
+#### pond {
+  display: flex;<br>
+  justify-content: center;<br>
+  align-items: center;<br>
 }
-![Froggy_6_1](images/froggy6_1.png)
-![Froggy_6_2](images/froggy6_2.png)
-<!-- Комбинация: space-around по основной оси и flex-end по поперечной -->
-#pond {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+
+<table>
+  <tr>
+    <td><img src="images/froggy6_1.png" alt="Froggy_6_1" width="400"/></td>
+    <td><img src="images/froggy6_2.png" alt="Froggy_6_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация: space-around по основной оси и flex-end по поперечной --><br>
+
+#### pond  {
+  display: flex;<br>
+  justify-content: space-around;<br>
+  align-items: flex-end;<br>
 }
-![Froggy_7_1](images/froggy7_1.png)
-![Froggy_7_2](images/froggy7_2.png)
+
+<table>
+  <tr>
+    <td><img src="images/froggy7_1.png" alt="Froggy_7_1" width="400"/></td>
+    <td><img src="images/froggy7_2.png" alt="Froggy_7_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   FLEX-DIRECTION: Направление основной оси
 -->
 
-<!-- Элементы отображаются в обратном порядке к направлению текста -->
-#pond {
-  display: flex;
-  flex-direction: row-reverse;
+<!-- Элементы отображаются в обратном порядке к направлению текста --><br>
+#### pond {
+  display: flex;<br>
+  flex-direction: row-reverse;<br>
 }
-![Froggy_8_1](images/froggy8_1.png)
-![Froggy_8_2](images/froggy8_2.png)
-<!-- Элементы располагаются сверху вниз -->
-#pond {
-  display: flex;
-  flex-direction: column;
+
+<table>
+  <tr>
+    <td><img src="images/froggy8_1.png" alt="Froggy_8_1" width="400"/></td>
+    <td><img src="images/froggy8_2.png" alt="Froggy_8_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Элементы располагаются сверху вниз --><br>
+
+#### pond{
+  display: flex;<br>
+  flex-direction: column;<br>
 }
-![Froggy_9_1](images/froggy9_1.png)
-![Froggy_9_2](images/froggy9_2.png)
-<!-- Комбинация: row-reverse с выравниванием по левому краю -->
-#pond {
+
+<table>
+  <tr>
+    <td><img src="images/froggy9_1.png" alt="Froggy_9_1" width="400"/></td>
+    <td><img src="images/froggy9_2.png" alt="Froggy_9_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация: row-reverse с выравниванием по левому краю --><br>
+
+#### pond {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: left;
+  flex-direction: row-reverse;<br>
+  justify-content: left;<br>
 }
-![Froggy_10_1](images/froggy10_1.png)
-![Froggy_10_2](images/froggy10_2.png)
-<!-- Комбинация: column с выравниванием по концу основной оси -->
-#pond {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+
+<table>
+  <tr>
+    <td><img src="images/froggy10_1.png" alt="Froggy_10_1" width="400"/></td>
+    <td><img src="images/froggy10_2.png" alt="Froggy_10_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация: column с выравниванием по концу основной оси --><br>
+
+#### pond {
+  display: flex;<br>
+  flex-direction: column;<br>
+  justify-content: end;<br>
 }
-![Froggy_11_1](images/froggy11_1.png)
-![Froggy_11_2](images/froggy11_2.png)
-<!-- Комбинация: column-reverse с равномерным распределением пространства -->
-#pond {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
+
+<table>
+  <tr>
+    <td><img src="images/froggy11_1.png" alt="Froggy_11_1" width="400"/></td>
+    <td><img src="images/froggy11_2.png" alt="Froggy_11_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация: column-reverse с равномерным распределением пространства --><br>
+
+#### pond {
+  display: flex;<br>
+  flex-direction: column-reverse;<br>
+  justify-content: space-between;<br>
 }
-![Froggy_12_1](images/froggy12_1.png)
-![Froggy_12_2](images/froggy12_2.png)
-<!-- Комбинация: row-reverse с центрированием и выравниванием по концу поперечной оси -->
-#pond {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: end;
+
+<table>
+  <tr>
+    <td><img src="images/froggy12_1.png" alt="Froggy_12_1" width="400"/></td>
+    <td><img src="images/froggy12_2.png" alt="Froggy_12_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация: row-reverse с центрированием и выравниванием по концу поперечной оси --><br>
+
+#### pond {
+  display: flex;<br>
+  flex-direction: row-reverse;<br>
+  justify-content: center;<br>
+  align-items: end;<br>
 }
-![Froggy_13_1](images/froggy13_1.png)
-![Froggy_13_2](images/froggy13_2.png)
+
+<table>
+  <tr>
+    <td><img src="images/froggy13_1.png" alt="Froggy_13_1" width="400"/></td>
+    <td><img src="images/froggy13_2.png" alt="Froggy_13_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   ORDER: Изменение порядка отдельных элементов
   По умолчанию все элементы имеют order: 0
   Элементы с меньшим значением order располагаются раньше
--->
+--><br>
 
-#pond {
-  display: flex;
+#### pond {
+  display: flex;<br>
+}<br>
+.yellow {<br>
+  order: 2;<br>
 }
-.yellow {
-  order: 2;
-}
-![Froggy_14_1](images/froggy14_1.png)
-![Froggy_14_2](images/froggy14_2.png)
 
-#pond {
-  display: flex;
+<table>
+  <tr>
+    <td><img src="images/froggy14_1.png" alt="Froggy_14_1" width="400"/></td>
+    <td><img src="images/froggy14_2.png" alt="Froggy_14_2" width="400"/></td>
+  </tr>
+</table><br>
+
+#### pond {
+  display: flex;<br>
+}<br>
+.red {<br>
+  order: -3;<br>
 }
-.red {
-  order: -3;
-}
-![Froggy_15_1](images/froggy15_1.png)
-![Froggy_15_2](images/froggy15_2.png)
+
+<table>
+  <tr>
+    <td><img src="images/froggy15_1.png" alt="Froggy_15_1" width="400"/></td>
+    <td><img src="images/froggy15_2.png" alt="Froggy_15_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   ALIGN-SELF: Индивидуальное выравнивание отдельных элементов
   Переопределяет align-items для конкретного элемента
--->
+--><br>
 
-#pond {
-  display: flex;
-  align-items: flex-start;
+#### pond {
+  display: flex;<br>
+  align-items: flex-start;<br>
+}<br>
+.yellow {<br>
+  align-self: end;<br>
 }
-.yellow {
-  align-self: end;
+
+<table>
+  <tr>
+    <td><img src="images/froggy16_1.png" alt="Froggy_16_1" width="400"/></td>
+    <td><img src="images/froggy16_2.png" alt="Froggy_16_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация order и align-self для одного элемента --><br>
+
+#### pond {
+  display: flex;<br>
+  align-items: flex-start;<br>
+}<br>
+.yellow {<br>
+  order: 2;<br>
+  align-self: end;<br>
 }
-![Froggy_16_1](images/froggy16_1.png)
-![Froggy_16_2](images/froggy16_2.png)
-<!-- Комбинация order и align-self для одного элемента -->
-#pond {
-  display: flex;
-  align-items: flex-start;
-}
-.yellow {
-  order: 2;
-  align-self: end;
-}
-![Froggy_17_1](images/froggy17_1.png)
-![Froggy_17_2](images/froggy17_2.png)
+
+<table>
+  <tr>
+    <td><img src="images/froggy17_1.png" alt="Froggy_17_1" width="400"/></td>
+    <td><img src="images/froggy17_2.png" alt="Froggy_17_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   FLEX-WRAP: Перенос элементов на новую строку
   По умолчанию flex-wrap: nowrap (все элементы в одну строку)
 -->
 
-<!-- Элементы автоматически переносятся на новую строку -->
-#pond {
-  display: flex;
-  flex-wrap: wrap;
+<!-- Элементы автоматически переносятся на новую строку --><br>
+
+#### pond {
+  display: flex;<br>
+  flex-wrap: wrap;<br>
 }
-![Froggy_18_1](images/froggy18_1.png)
-![Froggy_18_2](images/froggy18_2.png)
-<!-- Комбинация column direction с wrap -->
-#pond {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+
+<table>
+  <tr>
+    <td><img src="images/froggy18_1.png" alt="Froggy_18_1" width="400"/></td>
+    <td><img src="images/froggy18_2.png" alt="Froggy_18_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация column direction с wrap --><br>
+
+#### pond {
+  display: flex;<br>
+  flex-direction: column;<br>
+  flex-wrap: wrap;<br>
 }
-![Froggy_19_1](images/froggy19_1.png)
-![Froggy_19_2](images/froggy19_2.png)
+<table>
+  <tr>
+    <td><img src="images/froggy19_1.png" alt="Froggy_19_1" width="400"/></td>
+    <td><img src="images/froggy19_2.png" alt="Froggy_19_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   FLEX-FLOW: Сокращённая запись для flex-direction и flex-wrap
   Принимает два значения через пробел: направление и перенос
--->
-
-#pond {
-  display: flex;
-  flex-flow: column wrap;
+  
+--><br>
+#### pond {
+  display: flex;<br>
+  flex-flow: column wrap;<br>
 }
-![Froggy_20_1](images/froggy20_1.png)
-![Froggy_20_2](images/froggy20_2.png)
+
+<table>
+  <tr>
+    <td><img src="images/froggy20_1.png" alt="Froggy_20_1" width="400"/></td>
+    <td><img src="images/froggy20_2.png" alt="Froggy_20_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   ALIGN-CONTENT: Управление пространством между рядами (только при flex-wrap: wrap)
   Важно: align-content работает только когда элементов больше, чем помещается в одном ряду
   Когда только один ряд, align-content ни на что не влияет
   Это может запутать, но align-content отвечает за расстояние между рядами, 
   в то время как align-items отвечает за то, как элементы в целом будут выровнены в контейнере
--->
+--><br>
 
-#pond {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+#### pond {
+  display: flex;<br>
+  flex-wrap: wrap;<br>
+  align-content: flex-start;<br>
 }
-![Froggy_21_1](images/froggy21_1.png)
-![Froggy_21_2](images/froggy21_2.png)
-#pond {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
+
+<table>
+  <tr>
+    <td><img src="images/froggy21_1.png" alt="Froggy_21_1" width="400"/></td>
+    <td><img src="images/froggy21_2.png" alt="Froggy_21_2" width="400"/></td>
+  </tr>
+</table><br>
+
+#### pond {
+  display: flex;<br>
+  flex-wrap: wrap;<br>
+  align-content: flex-end;<br>
 }
-![Froggy_22_1](images/froggy22_1.png)
-![Froggy_22_2](images/froggy22_2.png)
-<!-- Комбинация column-reverse с центрированием содержимого -->
-#pond {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
-  align-content: center;
+
+<table>
+  <tr>
+    <td><img src="images/froggy22_1.png" alt="Froggy_22_1" width="400"/></td>
+    <td><img src="images/froggy22_2.png" alt="Froggy_22_2" width="400"/></td>
+  </tr>
+</table>
+<!-- Комбинация column-reverse с центрированием содержимого --><br>
+
+#### pond {
+  display: flex;<br>
+  flex-wrap: wrap;<br>
+  flex-direction: column-reverse;<br>
+  align-content: center;<br>
 }
-![Froggy_23_1](images/froggy23_1.png)
-![Froggy_23_2](images/froggy23_2.png)
+
+<table>
+  <tr>
+    <td><img src="images/froggy23_1.png" alt="Froggy_23_1" width="400"/></td>
+    <td><img src="images/froggy23_2.png" alt="Froggy_23_2" width="400"/></td>
+  </tr>
+</table>
 <!-- 
   ФИНАЛЬНАЯ КОМБИНАЦИЯ: Все свойства вместе
   Сложный пример использования множества flexbox свойств
--->
-#pond {
-  display: flex;
-  flex-flow: wrap-reverse;
-  align-content: space-between;
-  justify-content: center;
-  flex-direction: column-reverse;
+--><br>
+
+#### pond  {
+  display: flex;<br>
+  flex-flow: wrap-reverse;<br>
+  align-content: space-between;<br>
+  justify-content: center;<br>
+  flex-direction: column-reverse;<br>
 }
-![Froggy_24_1](images/froggy24_1.png)
-![Froggy_24_2](images/froggy24_2.png)
-<!-- 
-  Поздравляем! Вы освоили CSS Flexbox!
-  Ты выиграл! Благодарим тебя за мастерство flexbox, 
-  ты смог помочь всем лягушатам добраться до своих лилий. 
-  Просто взгляни, как они счастливы!
--->
+<table>
+  <tr>
+    <td><img src="images/froggy24_1.png" alt="Froggy_24_1" width="400"/></td>
+    <td><img src="images/froggy24_2.png" alt="Froggy_24_2" width="400"/></td>
+  </tr>
+</table><br>
+
+  **Поздравляем! Вы освоили CSS Flexbox!**<br>
+  Ты выиграл! Благодарим тебя за мастерство flexbox, <br>
+  ты смог помочь всем лягушатам добраться до своих лилий.<br> 
+  **Просто взгляни, как они счастливы!**<br>
 ![Froggy_final](images/froggy_final.png)
-```
