@@ -16,6 +16,9 @@
   display: flex;
   justify-content: flex-end;
 }
+![ Froggy_1_1](images/ froggy1_1.png)
+![ Froggy_1_1](images/ froggy1_2.png)
+
 
 <!-- Элементы выровнены по центру основной оси -->
 #pond {
