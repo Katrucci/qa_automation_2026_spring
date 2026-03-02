@@ -17,7 +17,7 @@
   justify-content: flex-end;
 }
 ![Froggy_1_1](https://raw.githubusercontent.com/Katrucci/qa_automation_2026_spring/main/dev_frontend/images/froggy1_1.png)
-![Froggy_1_2](images/froggy1_2.png)
+![Froggy_1_2](./images/froggy1_2.png)
 
 
 <!-- Элементы выровнены по центру основной оси -->
